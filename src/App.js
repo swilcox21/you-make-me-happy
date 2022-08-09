@@ -5,6 +5,7 @@ import Happy from "./pages/happy";
 import Navbar from './components/navbar';
 import Horny from './pages/horny';
 import Hot from './pages/hot';
+import LoveNote from './pages/love-note';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="love-note" element={<LoveNote />} />
         <Route path="happy" element={<Happy />} />
         <Route path="horny" element={<Horny />} />
         <Route path="hot" element={<Hot />} />

@@ -1,4 +1,5 @@
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -9,6 +10,9 @@ function Home() {
         <br/>    
         <br/>    
         <h1>Forever</h1>
+        <Link to="/love-note">
+            <button className="love-note">Read Me</button>
+        </Link>
     </div>
   );
 }
