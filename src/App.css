@@ -1,0 +1,84 @@
+/* GLOBAL */
+a, 
+Link {
+  text-decoration: none;
+  font-weight: 700;  
+}
+
+/* CONTAINERS */
+.App {
+  text-align: center;
+}
+.happy-container {
+  text-align: center;
+  padding-top:100px;
+  height: 100vh;
+  background-image: url("/images/holding-zoey.jpeg");
+  background-size: cover;
+}
+
+.home-container {
+  text-align: center;
+  padding-top:100px;
+  background-image: url("/images/forever-home.jpeg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+.navbar-container {
+  text-align: center;
+  position:fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* NAVBAR */
+.nav-link {
+  /* margin-left:20%; */
+}
+.nav-link-image {
+  height: 40px;
+  width: 40px;
+  /* margin-left:100%; */
+}
+.nav-link-image img {
+  height: 100%;
+  width:100%;
+}
+
+/* HORNY */
+.horny-container {
+  text-align: center;
+  padding-top:100px;
+  height: 100vh;
+  background-image: url("/images/post-passport-pic.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.horny-header {
+  color: white;
+  background-color: #27282682;
+  padding: 5px;
+}
+
+/* HOT */
+.hot-container {
+  text-align: center;
+  height: 100vh;
+  background-image: url("/images/reg-nuge-babyshower.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.hot-sidediv {
+  height: 100vh;
+  width: 30%;
+  padding-top:100px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color: rgba(195, 206, 103, 0.616);
+}
