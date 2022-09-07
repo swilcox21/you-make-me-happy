@@ -10,8 +10,8 @@ button {
   padding-right: 25px;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0);
-  color: red;
-  border: 1px solid red;
+  color: white;
+  border: 1px solid white;
   font-size: 18px;
   font-weight: 500;
 }
@@ -23,7 +23,7 @@ button {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.57);
+  background-color: white;
   padding: 20px;
 }
 .nav-link {
@@ -47,14 +47,25 @@ button {
 /* HOME */
 .home-container {
   text-align: center;
-  padding-top: 100px;
-  background-image: url("/images/forever-home.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100vh;
+  padding-top: 8vh;
+  height: 92vh;
   color: white;
+  background-color: black;
 }
-
+.mavBox {
+  overflow: hidden;
+  height: 50vh;
+  width: 100%;
+}
+.mrMaverick {
+  background-image: url("/images/forever-home.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin-top: -5vh;
+  transform: scale(1.5);
+}
 /* LOVE-NOTE */
 .love-note-container {
   padding-top: 80px;
@@ -64,33 +75,49 @@ button {
   background-image: url("https://media.istockphoto.com/photos/love-letter-picture-id121628677?k=20&m=121628677&s=170667a&w=0&h=sRo4CUOfGskDUVWMFv-zetTxWWo8z1AhuCqEcBrEte0=");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5%;
-  /* padding-top: 15%; */
   padding-bottom: 400px;
 }
 .message {
   color: rgb(54, 0, 64);
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
-  letter-spacing: 2px;
-  font-family: cursive;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  letter-spacing: 1px;
+  font-family: "Brush Script MT", cursive;
+  font-family: "copperplate", fantasy;
+  font-family: "Monaco", monospace;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.05) 90%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0px 0px 500px rgba(255, 255, 255, 0.2);
+  padding: 5%;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  margin-top: -20px;
 }
 /* HAPPY */
 .happy-container {
   text-align: center;
-  padding-top: 100px;
   height: 100vh;
   background-image: url("/images/holding-zoey.jpeg");
   background-size: cover;
 }
-
+.happyHeader {
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 110px;
+  color: white;
+}
 /* HORNY */
 .horny-container {
   text-align: center;
-  padding-top: 100px;
-  height: 100vh;
+  padding-top: 8vh;
+  height: 92vh;
   background-image: url("/images/post-passport-pic.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,20 +126,21 @@ button {
   color: white;
   background-color: #27282682;
   padding: 5px;
+  margin-top: 5vh;
 }
 
 /* HOT */
 .hot-container {
   text-align: center;
-  padding-top: 80px;
-  height: 100vh;
+  padding-top: 8vh;
+  height: 92vh;
   background-image: url("/images/reg-nuge-babyshower.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .hot-sidediv {
-  height: 100vh;
-  padding-top: 120px;
+  height: 84vh;
+  padding-top: 8vh;
   width: 30%;
   padding-left: 20px;
   padding-right: 20px;

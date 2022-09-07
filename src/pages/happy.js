@@ -1,11 +1,11 @@
-import '../App.css';
+import "../App.css";
 
 function Happy() {
   return (
     <>
-    <div className="happy-container">
-        <h1 style={{ color: "white"}}>You make me Happy</h1>
-    </div>
+      <div className="happy-container">
+        <div className="happyHeader">You make me Happy</div>
+      </div>
     </>
   );
 }
