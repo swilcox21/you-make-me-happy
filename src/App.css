@@ -47,8 +47,8 @@ button {
 /* HOME */
 .home-container {
   text-align: center;
-  padding-top: 8vh;
-  height: 92vh;
+  padding-top: 8.2vh;
+  height: 91.8vh;
   color: white;
   background-color: black;
 }
@@ -68,23 +68,21 @@ button {
 }
 /* LOVE-NOTE */
 .love-note-container {
-  padding-top: 80px;
-  height: 100vh;
+  padding-top: 8vh;
+  height: 92vh;
 }
 .love-note {
   background-image: url("https://media.istockphoto.com/photos/love-letter-picture-id121628677?k=20&m=121628677&s=170667a&w=0&h=sRo4CUOfGskDUVWMFv-zetTxWWo8z1AhuCqEcBrEte0=");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 400px;
+  height: 94vh;
 }
 .message {
   color: rgb(54, 0, 64);
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-family: "Brush Script MT", cursive;
-  font-family: "copperplate", fantasy;
-  font-family: "Monaco", monospace;
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-family: "Bradley Hand", cursive;
   border-radius: 50%;
   background: rgb(255, 255, 255);
   background: radial-gradient(
