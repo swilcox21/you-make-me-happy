@@ -11,6 +11,11 @@ function Home() {
       <h1>FOREVER</h1>
       <br />
       <br />
+      <Link to="/sgh">
+        <button className="love-note-button">The adventures of...</button>
+      </Link>
+      <br />
+      <br />
       <Link to="/love-note">
         <button className="love-note-button">LoveNote 1</button>
       </Link>
