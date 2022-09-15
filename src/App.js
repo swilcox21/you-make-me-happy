@@ -16,10 +16,11 @@ function App() {
     var scroll = window.scrollY;
     const handleScroll = (event) => {
       // setScroll(window.scrollY);
-      scroll < window.scrollY ? setShowNav(false) : setShowNav(true);
+      scroll > window.scrollY || scroll === 0
+        ? setShowNav(true)
+        : setShowNav(false);
       scroll = window.scrollY;
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);

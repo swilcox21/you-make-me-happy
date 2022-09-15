@@ -12,30 +12,9 @@ function SuperHornyGirl() {
       window.scrollY >= 500 ? setBackground(2) : setBackground(1);
       setScroll(window.scrollY);
     };
-    function handleTouchStart(e) {
-      setTouchStart(e.targetTouches[0].clientX);
-    }
-    function handleTouchMove(e) {
-      setTouchEnd(e.targetTouches[0].clientX);
-    }
-    function handleTouchEnd() {
-      if (touchStart - touchEnd > 75) {
-        // do your stuff here for left swipe
-        setBackground(1);
-      }
-      if (touchStart - touchEnd < -75) {
-        // do your stuff here for right swipe
-        setBackground(2);
-        console.log("left");
-      }
-    }
     window.addEventListener("scroll", handleScroll);
-    window.addEventListener("touchstart", handleTouchStart);
-    window.addEventListener("touchend", handleTouchEnd);
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("touchstart", handleTouchStart);
-      window.removeEventListener("touchend", handleTouchEnd);
     };
   }, []);
   return (
