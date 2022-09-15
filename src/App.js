@@ -16,7 +16,7 @@ function App() {
     var scroll = window.scrollY;
     const handleScroll = (event) => {
       // setScroll(window.scrollY);
-      scroll > window.scrollY || scroll === 0
+      scroll > window.scrollY || scroll <= 100
         ? setShowNav(true)
         : setShowNav(false);
       scroll = window.scrollY;
