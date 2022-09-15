@@ -21,10 +21,11 @@ function SuperHornyGirl() {
     function handleTouchEnd() {
       if (touchStart - touchEnd > 75) {
         // do your stuff here for left swipe
-        console.log("right");
+        setBackground(1);
       }
       if (touchStart - touchEnd < -75) {
         // do your stuff here for right swipe
+        setBackground(2);
         console.log("left");
       }
     }
