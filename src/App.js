@@ -7,11 +7,27 @@ import Horny from "./pages/horny";
 import Hot from "./pages/hot";
 import LoveNote from "./pages/love-note";
 import SuperHornyGirl from "./pages/super-horny-girl";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [showNav, setShowNav] = useState(true);
+
+  useEffect(() => {
+    var scroll = window.scrollY;
+    const handleScroll = (event) => {
+      // setScroll(window.scrollY);
+      scroll < window.scrollY ? setShowNav(false) : setShowNav(true);
+      scroll = window.scrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="App">
-      <Navbar />
+      <Navbar showNav={showNav} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="love-note" element={<LoveNote />} />

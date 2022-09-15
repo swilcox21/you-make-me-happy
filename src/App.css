@@ -25,9 +25,11 @@ button {
   width: 100%;
   background-color: white;
   padding: 20px;
+  transition: 0.5s;
 }
-.navbar-scroll {
-  display: none;
+.hideNav {
+  transition: 0.5s;
+  margin-top: -100px;
 }
 .nav-link {
   /* margin-left:20%; */
