@@ -44,11 +44,28 @@ function SuperHornyGirl() {
         <h1 className="sghHeader">
           The Adventures of Super Horny Girl and Bonor Boy
         </h1>
-        <img
-          className="coverSghpic"
-          src="/images/sghtoons/christine.png"
-          alt=""
-        />
+        <div className="familyFlexbox">
+          <img
+            className="coverSghpic"
+            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
+            alt=""
+          />
+          <img
+            className="coverHPPpic"
+            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
+            alt=""
+          />
+          <img
+            className="coverZozopic"
+            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
+            alt=""
+          />
+          <img
+            className="coverBonorBoypic"
+            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
+            alt=""
+          />
+        </div>
         <div className="caption">
           this is my first caption for the super horny girl and bonor boy
           scrolly book series

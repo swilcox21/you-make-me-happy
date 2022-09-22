@@ -165,11 +165,30 @@ button {
   background-repeat: no-repeat;
   transition: 0.3s;
 } */
-.coverSghpic {
+.familyFlexbox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 400px;
   position: fixed;
-  margin-top: 500px;
-  width: 100px;
-  height: 100px;
+}
+.coverSghpic {
+  max-width: 100px;
+  max-height: 100px;
+}
+.coverBonorBoypic {
+  max-width: 100px;
+  max-height: 100px;
+}
+.coverHPPpic {
+  margin-top: 25px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.coverZozopic {
+  margin-top: 25px;
+  max-width: 100px;
+  max-height: 100px;
 }
 .super-horny-girl-container {
   /* position: relative; */
