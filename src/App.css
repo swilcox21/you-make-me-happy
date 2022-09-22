@@ -302,25 +302,41 @@ button {
   margin-left: 80%;
   max-width: 105px;
   max-height: 105px;
-  transition: 0.8s;
+  transition: 1.8s;
 }
 .act1Zozopic-1 {
   position: fixed;
-  margin-top: 80%;
-  margin-left: 60%;
+  margin-top: 90%;
+  margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
   transition: 0.8s;
 }
 .act1Zozopic-2 {
   position: fixed;
-  margin-top: 85%;
+  margin-top: 35%;
+  margin-left: 30%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 2.2s;
+}
+.act1Zozopic-3 {
+  position: fixed;
+  margin-top: 35%;
+  margin-left: 30%;
+  max-width: 105px;
+  max-height: 105px;
+  /* transition: 2.2s; */
+}
+.act1Zozopic-4 {
+  position: fixed;
+  margin-top: 55%;
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
   transition: 0.8s;
 }
-.act1Zozopic-3 {
+.act1Zozopic-5 {
   position: fixed;
   margin-top: 55%;
   margin-left: 30%;
@@ -360,6 +376,43 @@ button {
   max-height: 105px;
   transition: 1.2s;
 }
+.act1BonorBoypic-4 {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 65%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1BonorBoypic-5 {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 65%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1ZoeyNo {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 45%;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.act1ZoeyNo-hide {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 45%;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1.5s;
+  opacity: 0;
+}
 .act1ZoeyNo {
   position: fixed;
   margin-top: 85%;
@@ -388,13 +441,22 @@ button {
 }
 .act1Chickenpic-2 {
   position: fixed;
-  margin-top: 35%;
-  margin-left: 80%;
+  margin-top: 5%;
+  margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
   transition: 1.2s;
 }
 .act1Chickenpic-3 {
+  position: fixed;
+  margin-top: 0%;
+  margin-left: -30%;
+  max-width: 105px;
+  max-height: 105px;
+  opacity: 0;
+  transition: 1.9s;
+}
+.act1Chickenpic-4 {
   position: fixed;
   margin-top: 05%;
   margin-left: 30%;
@@ -402,7 +464,46 @@ button {
   max-height: 105px;
   transition: 1.2s;
 }
-
+.act1Chickenpic-5 {
+  position: fixed;
+  margin-top: 05%;
+  margin-left: 30%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1Stonepic {
+  position: fixed;
+  margin-top: 20%;
+  margin-left: -50px;
+  max-width: 55px;
+  max-height: 55px;
+  transition: 1.2s;
+}
+.act1Stonepic-2 {
+  position: fixed;
+  margin-top: 35%;
+  margin-left: 30%;
+  max-width: 95px;
+  max-height: 95px;
+  transition: 2.2s;
+}
+.act1Stonepic-3 {
+  position: fixed;
+  margin-top: 35%;
+  margin-left: 30%;
+  max-width: 95px;
+  max-height: 95px;
+  /* transition: 2.2s; */
+}
+.act1Stonepic-4 {
+  position: fixed;
+  margin-top: 0%;
+  margin-left: 0px;
+  max-width: 95px;
+  max-height: 95px;
+  transition: 1.2s;
+}
 /* ACT 2 */
 
 .super-horny-girl-bgImage3 {
