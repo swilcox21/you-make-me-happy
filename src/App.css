@@ -220,7 +220,7 @@ button {
 }
 .coverZozopic {
   position: fixed;
-  margin-top: 65px;
+  margin-top: 60px;
   margin-left: 273px;
   max-width: 45px;
   max-height: 45px;
@@ -302,11 +302,11 @@ button {
   margin-left: 80%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.8s;
+  transition: 0.8s;
 }
 .act1Zozopic-1 {
   position: fixed;
-  margin-top: 90%;
+  margin-top: 80%;
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
@@ -318,7 +318,7 @@ button {
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
-  transition: 2.2s;
+  transition: 0.8s;
 }
 .act1Zozopic-3 {
   position: fixed;
@@ -326,7 +326,7 @@ button {
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
-  /* transition: 2.2s; */
+  transition: 0.8s;
 }
 .act1Zozopic-4 {
   position: fixed;
@@ -350,23 +350,23 @@ button {
   margin-left: 85%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1BonorBoypic-1 {
   position: fixed;
-  margin-top: 95%;
+  margin-top: 80%;
   margin-left: 75%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1BonorBoypic-2 {
   position: fixed;
-  margin-top: 85%;
+  margin-top: 80%;
   margin-left: 65%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1BonorBoypic-3 {
   position: fixed;
@@ -374,23 +374,23 @@ button {
   margin-left: 65%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1BonorBoypic-4 {
   position: fixed;
-  margin-top: 85%;
+  margin-top: 80%;
   margin-left: 65%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1BonorBoypic-5 {
   position: fixed;
-  margin-top: 85%;
+  margin-top: 80%;
   margin-left: 65%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1ZoeyNo {
   position: fixed;
@@ -400,7 +400,7 @@ button {
   background-color: white;
   border: 1px solid black;
   border-radius: 50%;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 .act1ZoeyNo-hide {
   position: fixed;
@@ -410,7 +410,7 @@ button {
   background-color: white;
   border: 1px solid black;
   border-radius: 50%;
-  transition: 1.5s;
+  transition: 0.8s;
   opacity: 0;
 }
 .act1ZoeyNo {
@@ -421,7 +421,7 @@ button {
   background-color: white;
   border: 1px solid black;
   border-radius: 50%;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1ohStone-hide {
   position: fixed;
@@ -432,19 +432,19 @@ button {
   background-color: white;
   border: 1px solid black;
   border-radius: 50%;
-  transition: 1.5s;
+  transition: 0.8s;
   opacity: 0;
 }
 .act1ohStone {
   position: fixed;
-  margin-top: 85%;
+  margin-top: 75%;
   margin-left: 5%;
   font-size: 24px;
   padding: 25px;
   background-color: white;
   border: 1px solid black;
   border-radius: 50%;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Chickenpic {
   position: fixed;
@@ -452,7 +452,7 @@ button {
   margin-left: 85%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Chickenpic-1 {
   position: fixed;
@@ -460,7 +460,7 @@ button {
   margin-left: 125%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Chickenpic-2 {
   position: fixed;
@@ -468,7 +468,7 @@ button {
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Chickenpic-3 {
   position: fixed;
@@ -477,7 +477,7 @@ button {
   max-width: 105px;
   max-height: 105px;
   opacity: 0;
-  transition: 1.9s;
+  transition: 0.8s;
 }
 .act1Chickenpic-4 {
   position: fixed;
@@ -485,7 +485,7 @@ button {
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Chickenpic-5 {
   position: fixed;
@@ -493,7 +493,7 @@ button {
   margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Stonepic {
   position: fixed;
@@ -501,7 +501,7 @@ button {
   margin-left: -50px;
   max-width: 55px;
   max-height: 55px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Stonepic-2 {
   position: fixed;
@@ -509,7 +509,7 @@ button {
   margin-left: 30%;
   max-width: 95px;
   max-height: 95px;
-  transition: 2.2s;
+  transition: 0.8s;
 }
 .act1Stonepic-3 {
   position: fixed;
@@ -517,7 +517,7 @@ button {
   margin-left: 30%;
   max-width: 95px;
   max-height: 95px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .act1Stonepic-4 {
   position: fixed;
@@ -525,20 +525,20 @@ button {
   margin-left: 5%;
   max-width: 95px;
   max-height: 95px;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .szCollision {
   position: fixed;
   margin-top: 15%;
   margin-left: 10%;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 .szCollision-hide {
   position: fixed;
   margin-top: 15%;
   margin-left: 10%;
   opacity: 0;
-  transition: 1.2s;
+  transition: 0.8s;
 }
 /* ACT 2 */
 

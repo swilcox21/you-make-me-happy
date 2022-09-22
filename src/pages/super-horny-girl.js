@@ -26,8 +26,8 @@ function SuperHornyGirl() {
       window.scrollY < 1000 && setAct1(0);
       window.scrollY >= 1100 && setAct1(1);
       window.scrollY >= 1250 && setAct1(2);
-      window.scrollY >= 1500 && setAct1(3);
-      window.scrollY >= 1700 && setAct1(4);
+      window.scrollY >= 1300 && setAct1(3);
+      window.scrollY >= 1500 && setAct1(4);
       window.scrollY >= 2000 && setAct1(5);
       setScroll(window.scrollY);
       console.log(window.scrollY);
@@ -166,6 +166,8 @@ function SuperHornyGirl() {
                 : act1 === 2
                 ? "act1Chickenpic-2"
                 : act1 === 3
+                ? "act1Chickenpic-2"
+                : act1 === 4
                 ? "act1Chickenpic-3"
                 : "hide"
             }
@@ -179,7 +181,7 @@ function SuperHornyGirl() {
                 : act1 === 1
                 ? "act1Stonepic"
                 : act1 === 2
-                ? "act1Stonepic-2"
+                ? "act1Stonepic"
                 : act1 === 3
                 ? "act1Stonepic-3"
                 : act1 === 4
@@ -202,8 +204,8 @@ function SuperHornyGirl() {
           />
         </div>
         <div className="caption1">
-          After playing ball with Mr. Mav We then find our heros if a bit of a
-          pickle...
+          After playing ball with Mr. Mav, for hours... We find our heros in a
+          bit of a pickle...
         </div>
 
         <div className="caption">
