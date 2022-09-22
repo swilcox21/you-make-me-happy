@@ -304,14 +304,6 @@ button {
   max-height: 105px;
   transition: 0.8s;
 }
-.act1BonorBoypic {
-  position: fixed;
-  margin-top: 160%;
-  margin-left: 85%;
-  max-width: 105px;
-  max-height: 105px;
-  transition: 1.2s;
-}
 .act1Zozopic-1 {
   position: fixed;
   margin-top: 80%;
@@ -319,6 +311,30 @@ button {
   max-width: 105px;
   max-height: 105px;
   transition: 0.8s;
+}
+.act1Zozopic-2 {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 30%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 0.8s;
+}
+.act1Zozopic-3 {
+  position: fixed;
+  margin-top: 55%;
+  margin-left: 30%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 0.8s;
+}
+.act1BonorBoypic {
+  position: fixed;
+  margin-top: 160%;
+  margin-left: 85%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
 }
 .act1BonorBoypic-1 {
   position: fixed;
@@ -328,18 +344,60 @@ button {
   max-height: 105px;
   transition: 1.2s;
 }
-.act1Zozopic-2 {
-  position: fixed;
-  margin-top: 65%;
-  margin-left: 50%;
-  max-width: 105px;
-  max-height: 105px;
-  transition: 0.8s;
-}
 .act1BonorBoypic-2 {
   position: fixed;
   margin-top: 85%;
   margin-left: 65%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1BonorBoypic-3 {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 65%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1ZoeyNo {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 45%;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1.2s;
+}
+.act1Chickenpic {
+  position: fixed;
+  margin-top: 160%;
+  margin-left: 85%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1Chickenpic-1 {
+  position: fixed;
+  margin-top: 40%;
+  margin-left: 125%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1Chickenpic-2 {
+  position: fixed;
+  margin-top: 35%;
+  margin-left: 80%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1Chickenpic-3 {
+  position: fixed;
+  margin-top: 05%;
+  margin-left: 30%;
   max-width: 105px;
   max-height: 105px;
   transition: 1.2s;

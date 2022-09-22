@@ -113,25 +113,6 @@ function SuperHornyGirl() {
         {/* ACT 1 */}
 
         <div className={background === 1 ? "act1CharBox" : "hide"}>
-          {/* <img
-            className={
-              act1 === 0
-                ? "act1Chickenpic"
-                : act1 === 1
-                ? "act1Chickenpic-1"
-                : act1 === 2
-                ? "act1Chickenpic-2"
-                : act1 === 3
-                ? "act1Chickenpic-3"
-                : act1 === 4
-                ? "act1Chickenpic-4"
-                : act1 === 5
-                ? "act1Chickenpic-5"
-                : "act1Chickenpic"
-            }
-            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
-            alt=""
-          /> */}
           <img
             className={
               act1 === 0
@@ -168,6 +149,26 @@ function SuperHornyGirl() {
                 : "act1BonorBoypic"
             }
             src="https://raw.githubusercontent.com/swilcox21/you-make-me-happy/master/src/images/sghtoons/sam.png?token=GHSAT0AAAAAABWXVHZUVGUAQTAEOZF5FSZ6YZLYBTA"
+            alt=""
+          />
+          <div className="act1ZoeyNo">ZOEY NO!!</div>
+          <img
+            className={
+              act1 === 0
+                ? "act1Chickenpic"
+                : act1 === 1
+                ? "act1Chickenpic-1"
+                : act1 === 2
+                ? "act1Chickenpic-2"
+                : act1 === 3
+                ? "act1Chickenpic-3"
+                : act1 === 4
+                ? "act1Chickenpic-4"
+                : act1 === 5
+                ? "act1Chickenpic-5"
+                : "act1Chickenpic"
+            }
+            src="https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/chicken.png?raw=true"
             alt=""
           />
         </div>
