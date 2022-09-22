@@ -44,28 +44,28 @@ function SuperHornyGirl() {
         <h1 className="sghHeader">
           The Adventures of Super Horny Girl and Bonor Boy
         </h1>
-        <div className="familyFlexbox">
-          <img
-            className="coverSghpic"
-            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
-            alt=""
-          />
-          <img
-            className="coverHPPpic"
-            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
-            alt=""
-          />
-          <img
-            className="coverZozopic"
-            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
-            alt=""
-          />
-          <img
-            className="coverBonorBoypic"
-            src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
-            alt=""
-          />
-        </div>
+        {/* <div className="familyFlexbox"> */}
+        <img
+          className="coverSghpic"
+          src="https://raw.githubusercontent.com/swilcox21/you-make-me-happy/master/src/images/sghtoons/christine.png?token=GHSAT0AAAAAABWXVHZUXSUYRZ5OPWL6EMQWYZLYCUA"
+          alt=""
+        />
+        <img
+          className="coverHPPpic"
+          src="https://raw.githubusercontent.com/swilcox21/you-make-me-happy/master/src/images/sghtoons/mavman.png?token=GHSAT0AAAAAABWXVHZVSLJT6F2SW7QG7FDKYZLYCAQ"
+          alt=""
+        />
+        <img
+          className="coverZozopic"
+          src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
+          alt=""
+        />
+        <img
+          className="coverBonorBoypic"
+          src="https://raw.githubusercontent.com/swilcox21/you-make-me-happy/master/src/images/sghtoons/sam.png?token=GHSAT0AAAAAABWXVHZUVGUAQTAEOZF5FSZ6YZLYBTA"
+          alt=""
+        />
+        {/* </div> */}
         <div className="caption">
           this is my first caption for the super horny girl and bonor boy
           scrolly book series

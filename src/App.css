@@ -46,7 +46,7 @@ button {
 
 /* CONTAINERS */
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* HOME */
@@ -165,30 +165,46 @@ button {
   background-repeat: no-repeat;
   transition: 0.3s;
 } */
-.familyFlexbox {
+.sghHeader {
+  margin-top: 250px;
+  background-color: rgba(245, 245, 245, 0.7);
+  padding: 10px;
+  text-align: center;
+}
+/* .familyFlexbox {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 400px;
+  margin-top: 350px;
   position: fixed;
-}
+} */
 .coverSghpic {
-  max-width: 100px;
-  max-height: 100px;
-}
-.coverBonorBoypic {
-  max-width: 100px;
-  max-height: 100px;
+  position: fixed;
+  margin-top: 75px;
+  width: 60px;
+  height: 60px;
 }
 .coverHPPpic {
-  margin-top: 25px;
-  max-width: 100px;
-  max-height: 100px;
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 60px;
+  max-width: 120px;
+  max-height: 120px;
 }
 .coverZozopic {
-  margin-top: 25px;
-  max-width: 100px;
-  max-height: 100px;
+  position: fixed;
+  margin-top: 65px;
+  margin-left: 273px;
+  max-width: 45px;
+  max-height: 45px;
+  opacity: 60%;
+}
+.coverBonorBoypic {
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 300px;
+  max-width: 125px;
+  max-height: 125px;
 }
 .super-horny-girl-container {
   /* position: relative; */
@@ -231,11 +247,6 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0.8s;
-}
-.sghHeader {
-  margin-top: 200px;
-  background-color: rgba(245, 245, 245, 0.7);
-  padding: 10px;
 }
 .caption {
   margin-top: 800px;
