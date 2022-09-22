@@ -12,14 +12,14 @@ function SuperHornyGirl() {
 
   useEffect(() => {
     const handleScroll = (event) => {
-      window.scrollY < 500 && setBackground(0);
-      (window.scrollY <= 1200) & (window.scrollY >= 500) && setBackground(1);
+      window.scrollY < 750 && setBackground(0);
+      (window.scrollY <= 1200) & (window.scrollY >= 750) && setBackground(1);
       window.scrollY >= 1200 && setBackground(2);
       window.scrollY < 50 && setBall(0);
       window.scrollY >= 50 && setBall(1);
-      window.scrollY >= 100 && setBall(2);
-      window.scrollY >= 150 && setBall(3);
-      window.scrollY >= 500 && setBall(4);
+      window.scrollY >= 200 && setBall(2);
+      window.scrollY >= 350 && setBall(3);
+      window.scrollY >= 750 && setBall(4);
       setScroll(window.scrollY);
       console.log(window.scrollY);
     };
@@ -87,17 +87,6 @@ function SuperHornyGirl() {
             alt=""
           />
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <div className="caption">
           this is my first caption for the super horny girl and bonor boy
           scrolly book series
