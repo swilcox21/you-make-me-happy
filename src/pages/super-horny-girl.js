@@ -164,11 +164,7 @@ function SuperHornyGirl() {
                 ? "act1Chickenpic-2"
                 : act1 === 3
                 ? "act1Chickenpic-3"
-                : act1 === 4
-                ? "act1Chickenpic-4"
-                : act1 === 5
-                ? "act1Chickenpic-5"
-                : "act1Chickenpic"
+                : "hide"
             }
             src="https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/chicken.png?raw=true"
             alt=""
@@ -189,9 +185,14 @@ function SuperHornyGirl() {
                 ? "act1Stonepic-5"
                 : "act1Stonepic"
             }
-            src="https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/ohstone.png?raw=true"
+            src={
+              act1 === 4
+                ? "https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/ohstoneToppled.png?raw=true"
+                : "https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/ohstone.png?raw=true"
+            }
             alt=""
           />
+          <img className="szCollision" src="" alt="" />
         </div>
         <div className="caption1">
           After playing ball with Mr. Mav We then find our heros if a bit of a
