@@ -153,36 +153,55 @@ button {
   padding-right: 20px;
   background-color: rgba(255, 255, 255, 0.57);
 }
-/* SUPER-HORNY-GIRL */
+/* SGH */
 
-/* .super-horny-girl-bgImage2 {
+.super-horny-girl-container {
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+  height: 500vh;
+  overflow: scroll;
+}
+
+/* COVER */
+
+.super-horny-girl-bgImage1 {
   position: fixed;
-  margin-top: -100px;
+  /* margin-top: 50px; */
+  z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/006/607/685/original/bar-counter-interior-design-cartoon-illustration-vector.jpg");
+  background-image: url("/src/images/background/housebg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 0.3s;
-} */
+  transition: 0.8s;
+}
 .sghHeader {
   margin-top: 250px;
   background-color: rgba(245, 245, 245, 0.7);
   padding: 10px;
   text-align: center;
 }
-/* .familyFlexbox {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 350px;
-  position: fixed;
-} */
+.familyFlexbox {
+  /* position: fixed; */
+}
 .coverSghpic {
   position: fixed;
   margin-top: 75px;
   width: 60px;
   height: 60px;
+}
+.ggMav {
+  position: fixed;
+  margin-top: 35px;
+  margin-left: 25px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 15px;
+  z-index: 10;
+  max-height: 45px;
+  transition: 1s;
 }
 .coverHPPpic {
   position: fixed;
@@ -217,7 +236,7 @@ button {
   padding: 15px;
   max-width: 45px;
   max-height: 45px;
-  opacity: 60%;
+  opacity: 70%;
   transition: 0.5s;
 }
 .coverBonorBoypic {
@@ -259,26 +278,9 @@ button {
   max-height: 30px;
   transition: 0.3s;
 }
-.super-horny-girl-container {
-  /* position: relative; */
-  /* padding-top: 100px; */
-  padding: 0;
-  margin: 0;
-  min-width: 100%;
-  height: 1000vh;
-  overflow: scroll;
-}
-.super-horny-girl-bgImage1 {
-  position: fixed;
-  /* margin-top: 50px; */
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-image: url("/src/images/background/housebg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: 0.8s;
-}
+
+/* ACT 1 */
+
 .super-horny-girl-bgImage2 {
   position: fixed;
   /* margin-top: 50px; */
@@ -290,6 +292,61 @@ button {
   background-repeat: no-repeat;
   transition: 0.8s;
 }
+.act1CharBox {
+  transition: 0.8s;
+  position: fixed;
+}
+.act1Zozopic {
+  position: fixed;
+  margin-top: 150%;
+  margin-left: 80%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 0.8s;
+}
+.act1BonorBoypic {
+  position: fixed;
+  margin-top: 160%;
+  margin-left: 85%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1Zozopic-1 {
+  position: fixed;
+  margin-top: 80%;
+  margin-left: 60%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 0.8s;
+}
+.act1BonorBoypic-1 {
+  position: fixed;
+  margin-top: 95%;
+  margin-left: 75%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+.act1Zozopic-2 {
+  position: fixed;
+  margin-top: 65%;
+  margin-left: 50%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 0.8s;
+}
+.act1BonorBoypic-2 {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 65%;
+  max-width: 105px;
+  max-height: 105px;
+  transition: 1.2s;
+}
+
+/* ACT 2 */
+
 .super-horny-girl-bgImage3 {
   position: fixed;
   /* margin-top: 50px; */
@@ -301,6 +358,9 @@ button {
   background-repeat: no-repeat;
   transition: 0.8s;
 }
+
+/* ACT 3 */
+
 .super-horny-girl-bgImage4 {
   position: fixed;
   /* margin-top: 50px; */
@@ -313,6 +373,7 @@ button {
   transition: 0.8s;
 }
 .caption1 {
+  text-align: center;
   margin-top: 1500px;
   z-index: 10;
   padding: 25px;
@@ -323,6 +384,7 @@ button {
   margin-left: 50px;
 }
 .caption {
+  text-align: center;
   margin-top: 1000px;
   z-index: 10;
   padding: 25px;
@@ -333,5 +395,7 @@ button {
   margin-left: 50px;
 }
 .hide {
+  /* transition: 0.8s; */
+  opacity: 0;
   display: none;
 }
