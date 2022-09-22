@@ -13,8 +13,8 @@ function SuperHornyGirl() {
   useEffect(() => {
     const handleScroll = (event) => {
       window.scrollY < 750 && setBackground(0);
-      (window.scrollY <= 1200) & (window.scrollY >= 750) && setBackground(1);
-      window.scrollY >= 1200 && setBackground(2);
+      (window.scrollY <= 1800) & (window.scrollY >= 750) && setBackground(1);
+      window.scrollY >= 1800 && setBackground(2);
       window.scrollY < 50 && setBall(0);
       window.scrollY >= 50 && setBall(1);
       window.scrollY >= 200 && setBall(2);
