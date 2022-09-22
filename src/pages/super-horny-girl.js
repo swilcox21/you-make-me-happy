@@ -151,7 +151,15 @@ function SuperHornyGirl() {
             src="https://raw.githubusercontent.com/swilcox21/you-make-me-happy/master/src/images/sghtoons/sam.png?token=GHSAT0AAAAAABWXVHZUVGUAQTAEOZF5FSZ6YZLYBTA"
             alt=""
           />
-          <div className={act1 === 2 ? "act1ZoeyNo" : "act1ZoeyNo-hide"}>
+          <div
+            className={
+              act1 === 2
+                ? "act1ZoeyNo"
+                : act1 === 3
+                ? "act1ZoeyNo"
+                : "act1ZoeyNo-hide"
+            }
+          >
             ZOEY NO!!
           </div>
           <div className={act1 === 4 ? "act1ohStone" : "act1ohStone-hide"}>
