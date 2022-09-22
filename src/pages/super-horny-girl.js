@@ -154,6 +154,9 @@ function SuperHornyGirl() {
           <div className={act1 === 2 ? "act1ZoeyNo" : "act1ZoeyNo-hide"}>
             ZOEY NO!!
           </div>
+          <div className={act1 === 4 ? "act1ohStone" : "act1ohStone-hide"}>
+            OH STOOOOONE!!!
+          </div>
           <img
             className={
               act1 === 0
@@ -192,7 +195,11 @@ function SuperHornyGirl() {
             }
             alt=""
           />
-          <img className="szCollision" src="" alt="" />
+          <img
+            className={act1 === 3 ? "szCollision" : "szCollision-hide"}
+            src="https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/explosionca.png?raw=true"
+            alt=""
+          />
         </div>
         <div className="caption1">
           After playing ball with Mr. Mav We then find our heros if a bit of a

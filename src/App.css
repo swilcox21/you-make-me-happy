@@ -423,6 +423,29 @@ button {
   border-radius: 50%;
   transition: 1.2s;
 }
+.act1ohStone-hide {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 5%;
+  padding: 25px;
+  font-size: 24px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1.5s;
+  opacity: 0;
+}
+.act1ohStone {
+  position: fixed;
+  margin-top: 85%;
+  margin-left: 5%;
+  font-size: 24px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 1.2s;
+}
 .act1Chickenpic {
   position: fixed;
   margin-top: 160%;
@@ -502,6 +525,19 @@ button {
   margin-left: 5%;
   max-width: 95px;
   max-height: 95px;
+  transition: 1.2s;
+}
+.szCollision {
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 10%;
+  transition: 1.2s;
+}
+.szCollision-hide {
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 10%;
+  opacity: 0;
   transition: 1.2s;
 }
 /* ACT 2 */
