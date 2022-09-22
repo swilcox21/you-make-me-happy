@@ -55,6 +55,18 @@ function SuperHornyGirl() {
         className="super-horny-girl-container"
       >
         {/* COVER PAGE */}
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <h1 className="sghHeader">The Adventures of SGH and Bonor Boy</h1>
         <div className={background === 0 ? "familyFlexbox" : "hide"}>
           <img
