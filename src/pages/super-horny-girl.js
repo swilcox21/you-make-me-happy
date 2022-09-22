@@ -14,21 +14,21 @@ function SuperHornyGirl() {
   useEffect(() => {
     const handleScroll = (event) => {
       window.scrollY < 1000 && setBackground(0);
-      (window.scrollY <= 2000) & (window.scrollY >= 1000) && setBackground(1);
-      window.scrollY >= 2000 && setBackground(2);
-      window.scrollY >= 3000 && setBackground(3);
+      (window.scrollY <= 2200) & (window.scrollY >= 1000) && setBackground(1);
+      window.scrollY >= 2400 && setBackground(2);
+      window.scrollY >= 3500 && setBackground(3);
       window.scrollY < 50 && setBall(0);
       window.scrollY >= 50 && setBall(1);
       window.scrollY >= 250 && setBall(2);
       window.scrollY >= 500 && setBall(3);
       window.scrollY >= 700 && setBall(4);
       window.scrollY >= 1000 && setBall(5);
-      window.scrollY < 1000 && setAct1(0);
-      window.scrollY >= 1100 && setAct1(1);
-      window.scrollY >= 1250 && setAct1(2);
-      window.scrollY >= 1300 && setAct1(3);
-      window.scrollY >= 1500 && setAct1(4);
-      window.scrollY >= 2000 && setAct1(5);
+      window.scrollY < 1250 && setAct1(0);
+      window.scrollY >= 1250 && setAct1(1);
+      window.scrollY >= 1550 && setAct1(2);
+      window.scrollY >= 1700 && setAct1(3);
+      window.scrollY >= 2000 && setAct1(4);
+      // window.scrollY >= 2200 && setAct1(5);
       setScroll(window.scrollY);
       console.log(window.scrollY);
     };
@@ -127,7 +127,7 @@ function SuperHornyGirl() {
                 : act1 === 4
                 ? "act1Zozopic-4"
                 : act1 === 5
-                ? "act1Zozopic-5"
+                ? "act1Zozopic-4"
                 : "act1Zozopic"
             }
             src="https://github.com/swilcox21/thought.org.vercel.dev/blob/main/public/zozo.png?raw=true"
@@ -196,11 +196,11 @@ function SuperHornyGirl() {
                 : act1 === 4
                 ? "act1Stonepic-4"
                 : act1 === 5
-                ? "act1Stonepic-5"
+                ? "act1Stonepic-4"
                 : "act1Stonepic"
             }
             src={
-              act1 === 4
+              act1 === 4 || act1 === 5
                 ? "https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/ohstoneToppled.png?raw=true"
                 : "https://github.com/swilcox21/you-make-me-happy/blob/master/src/images/sghtoons/ohstone.png?raw=true"
             }

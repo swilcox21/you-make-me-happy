@@ -222,7 +222,7 @@ button {
 }
 .coverZozopic {
   position: fixed;
-  margin-top: 43px;
+  margin-top: 40px;
   margin-left: 273px;
   max-width: 45px;
   max-height: 45px;
@@ -582,7 +582,7 @@ button {
 }
 .caption {
   text-align: center;
-  margin-top: 1000px;
+  margin-top: 1200px;
   z-index: 10;
   padding: 25px;
   width: 150px;
