@@ -20,6 +20,10 @@ function ChristmasNote() {
             believe we are so blessed. I know it's corny to say but I really
             can't wait to see what this new year together holds for us
           </div>
+          <div className="christmas-message">
+            with all the love in my heart,
+          </div>
+          <div className="christmas-message">I am yours... forever</div>
         </div>
       </div>
     </>
