@@ -24,6 +24,8 @@ function ChristmasNote() {
             with all the love in my heart,
           </div>
           <div className="christmas-message">I am yours... forever</div>
+          <br />
+          <br />
         </div>
       </div>
     </>
