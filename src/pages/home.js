@@ -16,6 +16,11 @@ function Home() {
       </Link>
       <br />
       <br />
+      <Link to="/christmas-note">
+        <button className="christmas-note-button">Christmas Note 1</button>
+      </Link>
+      <br />
+      <br />
       <Link to="/love-note">
         <button className="love-note-button">LoveNote 1</button>
       </Link>

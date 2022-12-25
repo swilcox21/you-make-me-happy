@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import Horny from "./pages/horny";
 import Hot from "./pages/hot";
 import LoveNote from "./pages/love-note";
+import ChristmasNote from "./pages/christmas-note";
 import SuperHornyGirl from "./pages/super-horny-girl";
 import { useEffect, useState } from "react";
 
@@ -32,6 +33,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="love-note" element={<LoveNote />} />
+        <Route path="christmas-note" element={<ChristmasNote />} />
         <Route path="happy" element={<Happy />} />
         <Route path="horny" element={<Horny />} />
         <Route path="hot" element={<Hot />} />
